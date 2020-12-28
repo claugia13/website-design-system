@@ -18,8 +18,22 @@
 
 /* Fonts Section */
 
-font-family: 'Cormorant Garamond', serif;
-font-family: 'Harmattan', sans-serif;
-font-family: 'Kalam', cursive;
-font-family: 'Palanquin', sans-serif;
-font-family: 'Saira Condensed', sans-serif;
+.font-1 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.font-2 {
+    font-family: 'Harmattan', sans-serif;
+}
+
+.font-3 {
+    font-family: 'Kalam', cursive;
+}
+
+.font-4 {
+    font-family: 'Palanquin', sans-serif;
+}
+
+.font-5 {
+    font-family: 'Saira Condensed', sans-serif;
+}
