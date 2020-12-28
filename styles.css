@@ -1,19 +1,31 @@
 /* Colors Section */
 
+.color-panel {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
 .maroon {
-    color: #973D4E;
+    color: white;
+    background-color: #973D4E;
 }
 
 .teal {
-    color: #3D9786;
+    color: white;
+    background-color: #3D9786;
 }
 
 .mustard {
-    color: #DBA625;
+    color: white;
+    background-color: #DBA625;
 }
 
 .royal-blue {
-    color: #255ADB;
+    color: white;
+    background-color: #255ADB;
 }
 
 /* Fonts Section */
