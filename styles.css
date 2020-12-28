@@ -1,3 +1,5 @@
+/* Colors Section */
+
 .maroon {
     color: #973D4E;
 }
@@ -7,9 +9,17 @@
 }
 
 .mustard {
-    color: #C4922F;
+    color: #DBA625;
 }
 
 .royal-blue {
-    color: #2F61C4;
+    color: #255ADB;
 }
+
+/* Fonts Section */
+
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Harmattan', sans-serif;
+font-family: 'Kalam', cursive;
+font-family: 'Palanquin', sans-serif;
+font-family: 'Saira Condensed', sans-serif;
