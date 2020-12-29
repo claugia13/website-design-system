@@ -1,3 +1,16 @@
+
+section {
+    border: 3px solid gray;
+    margin: 20px;
+    text-align: center;
+}
+
+ul {
+    /* list-style-position: inside; */
+    display: inline-block;
+    text-align: left;
+}
+
 /* Colors Section */
 
 .color-panel {
@@ -31,21 +44,56 @@
 /* Fonts Section */
 
 .font-1 {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Darker Grotesque', sans-serif;
 }
 
 .font-2 {
-    font-family: 'Harmattan', sans-serif;
+    font-family: 'Play', sans-serif;
 }
 
 .font-3 {
-    font-family: 'Kalam', cursive;
+    font-family: 
 }
 
-.font-4 {
-    font-family: 'Palanquin', sans-serif;
+.regular {
+    font-style: normal;
 }
 
-.font-5 {
-    font-family: 'Saira Condensed', sans-serif;
+.bold {
+    font-weight: 900;
 }
+
+.italic {
+    font-style: italic;
+}
+
+.font-label {
+    font-size: larger;
+}
+
+/* Text Styles Section */
+
+.main-page-heading {
+font-weight: bold;
+font-size: 36px;
+font-family: 'Play', sans-serif;
+}
+
+h2, .subheading {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Play', sans-serif;
+}
+
+p, .p-text {
+    font-weight: normal;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.caption-footer {
+    font-weight: normal;
+    font-size: 16px;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
