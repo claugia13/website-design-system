@@ -1,8 +1,22 @@
+body {
+    margin: 40px;
+}
 
 section {
-    border: 3px solid gray;
-    margin: 20px;
+    border: 3px solid gray;  
+    margin: 40px;  
+
     text-align: center;
+    width: 1000px;
+    background-image: url("./images/whimsical-border.jpg");
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.container {
+    padding-right: 300px;
+    padding-bottom: 40px;
 }
 
 ul {
@@ -15,7 +29,7 @@ ul {
 
 .color-panel {
     display: inline-block;
-    width: 40%;
+    width: 25%;
     text-align: center;
     margin: 20px auto;
     min-height: 100px;
@@ -45,14 +59,17 @@ ul {
 
 .font-1 {
     font-family: 'Darker Grotesque', sans-serif;
+    font-size: 18px;
 }
 
 .font-2 {
     font-family: 'Play', sans-serif;
+    font-size: 16px;
 }
 
 .font-3 {
-    font-family: 
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
 }
 
 .regular {
@@ -85,7 +102,7 @@ h2, .subheading {
     font-family: 'Play', sans-serif;
 }
 
-p, .p-text {
+.p-text {
     font-weight: normal;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
@@ -93,7 +110,7 @@ p, .p-text {
 
 .caption-footer {
     font-weight: normal;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Darker Grotesque', sans-serif;
 }
 
